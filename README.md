@@ -1,4 +1,5 @@
-## NOX Wallet Project
+## SAMPLE REACT PROJECT
+Sample react redux saga, support login flow
 
 ### Technologies
 
