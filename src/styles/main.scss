@@ -1,0 +1,32 @@
+// @import "./components/normalize";
+@import './components/variables';
+
+// required
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins';
+
+// optional
+@import 'node_modules/bootstrap/scss/reboot';
+@import 'node_modules/bootstrap/scss/utilities/text';
+@import 'node_modules/bootstrap/scss/utilities/spacing';
+@import 'node_modules/bootstrap/scss/utilities/borders';
+@import 'node_modules/bootstrap/scss/utilities/background';
+@import 'node_modules/bootstrap/scss/utilities/shadows';
+@import 'node_modules/bootstrap/scss/type';
+@import 'node_modules/bootstrap/scss/buttons';
+@import 'node_modules/bootstrap/scss/card';
+@import 'node_modules/bootstrap/scss/button-group';
+@import 'node_modules/bootstrap/scss/forms';
+@import 'node_modules/bootstrap/scss/input-group';
+@import 'node_modules/bootstrap/scss/tables';
+// @import 'node_modules/bootstrap/scss/alert';
+@import 'node_modules/bootstrap/scss/bootstrap-grid';
+
+@import './components/rc-notification';
+
+@import './components/base';
+@import './components/common';
+@import './components/header';
+
+@import './components/login-page';

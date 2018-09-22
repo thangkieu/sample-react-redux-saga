@@ -1,0 +1,29 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": 0,
+    "no-console": 0
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true,
+      "generators": true
+    },
+    "sourceType": "module",
+    "impliedStrict": true
+  },
+  "plugins": ["react", "babel"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jquery": true,
+    "es6": true,
+    "jest": true
+  },
+  "globals": {
+    "grecaptcha": true
+  }
+}

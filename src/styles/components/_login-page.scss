@@ -1,0 +1,16 @@
+.login-page {
+  flex-grow: 1;
+  display: flex;
+  padding: 3rem 0;
+  background-attachment: fixed;
+  background-position: top left;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+
+  form {
+    min-width: 25rem;
+    margin: auto;
+  }
+}

@@ -1,0 +1,21 @@
+# NodeJS #
+####################
+.grunt
+node_modules
+bower_components
+dist
+.tmp
+
+# Sass Ignores #
+################
+.sass-cache
+
+# SublimeText #
+###############
+# workspace files are user-specific
+*.sublime-workspace
+
+nox-wallet
+*.zip
+.firebase
+yarn*.*
